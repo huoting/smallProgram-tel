@@ -1,0 +1,85 @@
+/* pages/productDetails/details.wxss */
+.details-wrap .banner-wrap {
+  background-color: #fff;
+}
+.details-wrap .banner-wrap .img {
+  width: 100%;
+}
+.details-wrap .product-js {
+  background-color: #fff;
+  padding: 30rpx;
+}
+.details-wrap .product-js .money-wrap .money {
+  color: #ff6000;
+  font-size: 50rpx;
+  font-weight: bold;
+  padding: 0 20rpx 0 0;
+}
+.details-wrap .product-js .money-wrap .money .dw {
+  font-size: 30rpx;
+}
+.details-wrap .product-js .money-wrap .icon-text {
+  color: #ff6000;
+  background-color: #ffece0;
+  font-size: 26rpx;
+  padding: 5rpx 10rpx;
+  border-radius: 20rpx;
+}
+.details-wrap .product-js .title {
+  color: #000;
+  font-size: 34rpx;
+  font-weight: 600;
+  line-height: 50rpx;
+}
+.details-wrap .product-js .item-wrap {
+  padding: 20rpx 0 0;
+  color: #999;
+  font-size: 26rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.details-wrap .parameter-list {
+  margin: 20rpx 0 0;
+  background-color: #fff;
+}
+.details-wrap .parameter-list .item {
+  padding: 30rpx;
+  border-top: 1px solid #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details-wrap .parameter-list .item:first-child {
+  border-top: none;
+}
+.details-wrap .parameter-list .label {
+  font-size: 26rpx;
+  color: #999;
+  padding: 0 40rpx 0 0;
+}
+.details-wrap .parameter-list .text-con {
+  font-size: 26rpx;
+  color: #000;
+}
+.details-wrap .parameter-list .icon {
+  font-size: 26rpx;
+  color: #999;
+}
+.product-details-con .title-name {
+  padding: 20rpx 0;
+  text-align: center;
+  font-size: 26rpx;
+  color: #999;
+}
+.details-wrap .buy-button {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #ff9434;
+  cursor: pointer;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 30rpx;
+}

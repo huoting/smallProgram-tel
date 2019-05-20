@@ -1,0 +1,131 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.img-wrap {
+  width: 100%;
+}
+.img-wrap .img {
+  width: 100%;
+  display: block;
+}
+.navigator-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 0 0 20rpx;
+  margin-top: 20rpx;
+}
+.navigator-wrap navigator {
+  width: 25%;
+  text-align: center;
+  margin: 20rpx 0 0;
+}
+.navigator-wrap .img {
+  width: 110rpx;
+  height: 110rpx;
+  display: block;
+  margin: 0 auto;
+}
+.navigator-wrap text {
+  font-size: 28rpx;
+  padding: 5rpx 0 0;
+}
+/* 热卖推荐开始 */
+.tj-wrap {
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 10rpx 20rpx;
+}
+.tj-wrap .title {
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.tj-wrap .list-wrap {
+  padding: 10rpx 0;
+}
+.tj-wrap .list-wrap .item {
+  display: flex;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.tj-wrap .list-wrap .img-wrap {
+  min-width: 190rpx;
+  width: 190rpx;
+  height: 190rpx;
+  margin: 0 20rpx 0 0;
+}
+.tj-wrap .list-wrap .img-wrap .img {
+  min-width: 190rpx;
+  width: 190rpx;
+  height: 190rpx;
+}
+.tj-wrap .list-wrap .text-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+.tj-wrap .list-wrap .text-wrap .name {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 35rpx;
+}
+.tj-wrap .list-wrap .text-wrap .dec {
+  font-size: 28rpx;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 35rpx;
+}
+.tj-wrap .list-wrap .text-wrap .text {
+  font-size: 24rpx;
+  color: #666;
+  display: block;
+  line-height: 30rpx;
+}
+.tj-wrap .list-wrap .text-wrap .text text {
+  padding: 0 20rpx 0 0;
+}
+.tj-wrap .list-wrap .text-wrap .money-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 0 0;
+}
+.tj-wrap .list-wrap .text-wrap .money-wrap .span {
+  padding: 5rpx 10rpx;
+  color: #62cfce;
+  border: 2rpx solid #62cfce;
+  font-size: 28rpx;
+}
+.tj-wrap .list-wrap .text-wrap .money-wrap .money {
+  color: #666;
+  font-size: 24rpx;
+}
+.tj-wrap .list-wrap .text-wrap .money-wrap .money-text {
+  color: #ff6000;
+  font-size: 36rpx;
+}

@@ -1,0 +1,4 @@
+<view>
+  <text>头部{{name}}</text>
+</view>
+<slot></slot>

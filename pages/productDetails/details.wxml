@@ -1,0 +1,49 @@
+<view class='details-wrap'>
+  <view class='banner-wrap'>
+    <image class='img' src='../../images/product_banner.png' mode="widthFix"></image>
+  </view>
+  <view class='product-js'>
+    <view class='money-wrap'>
+      <text class='money'>
+        <text class='dw'>￥</text>
+        <text class='num'>35</text>
+        <text class='dw'>.00</text>
+      </text>
+      <text class='icon-text'>惊喜价</text>
+    </view>
+    <view class='title'>小台农芒果 1kg装 单果50g以上 新鲜水果 海南新鲜水果小太农阳光芒果</view>
+    <view class='item-wrap'>
+      <text class='span'>快递：免运费</text>
+      <text class='span'>剩余269件</text>
+      <text class='span'>与销量269</text>
+    </view>
+  </view>
+  <view class='parameter-list'>
+    <view class='item'>
+      <text class='text-wrap'>
+        <text class='label'>规格</text>
+        <text class='text-con'>请选择产品规格</text>
+      </text>
+      <text class='icon'>></text>
+    </view>
+    <view class='item'>
+      <text class='text-wrap'>
+        <text class='label'>参数</text>
+        <text class='text-con'>请选择产品参数</text>
+      </text>
+      <text class='icon'>></text>
+    </view>
+  </view>
+  <view class='product-details-con'>
+    <view class='title-name'>详情</view>
+    <view class='con'>
+      <view>
+        <image class='img' src='../../images/product_banner.png' mode="widthFix"></image>
+      </view>
+      <view>
+        <image class='img' src='../../images/product_banner.png' mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+  <view class="buy-button">立即购买</view>
+</view>

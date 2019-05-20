@@ -1,0 +1,33 @@
+<view class="oder-wrap">
+  <view class="select-wrap">
+    <view class="select-span active">全部</view>
+    <view class="select-span">待付款</view>
+    <view class="select-span">已付款</view>
+  </view>
+  <view class="oder-item">
+    <view class="item" wx:for="{{listData}}" wx:key="index">
+      <view class="shop-wrap">
+        <view class="name-wrap">
+          <text class="name">{{item.id}}商盟小店铺</text>
+        </view>
+        <text class="span-zt">等待付款</text>
+      </view>
+      <view class="product-text">
+        <view class="con">
+          <view class="img-wrap">
+            <image src="../../images/user_img.jpg" class="img" mode="widthFix"></image>
+          </view>
+          <view class="text">小台农芒果 1kg装 单果50g以上 新鲜水果 海南新鲜水果小太农阳光芒果</view>
+        </view>
+        <view class="money-wrap">
+          <view class="money">￥35.00</view>
+          <view class="mun">x1</view>
+        </view>
+      </view>
+      <view class="buy-num">共1件商品 合计:<text class='text'>￥</text><text class='money'>35.00</text><text class='text'>(含运费￥0.00)</text></view>
+      <view class='button-wrap'>
+        <view class='button'>申请退款</view>
+      </view>
+    </view>
+  </view>
+</view>

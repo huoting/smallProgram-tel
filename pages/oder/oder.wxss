@@ -1,0 +1,76 @@
+.oder-wrap .select-wrap {
+  background-color: #fff;
+  line-height: 90rpx;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24rpx;
+}
+.oder-wrap .select-wrap .select-span {
+  border-bottom: 2px solid transparent;
+  padding: 0 20rpx;
+}
+.oder-wrap .select-wrap .select-span.active {
+  border-bottom: 2px solid #62cfce;
+}
+.oder-wrap .oder-item .item {
+  background-color: #fff;
+  margin: 20rpx 0 0;
+}
+.oder-wrap .oder-item .shop-wrap {
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.oder-wrap .oder-item .shop-wrap .span-zt {
+  color: #ff9434;
+}
+.oder-wrap .oder-item .product-text {
+  padding: 10rpx 20rpx;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.oder-wrap .oder-item .product-text .con {
+  display: flex;
+  width: 100%;
+}
+.oder-wrap .oder-item .product-text .img-wrap {
+  min-width: 120rpx;
+  width: 120rpx;
+  height: 120rpx;
+  margin: 0 20rpx 0 0;
+}
+.oder-wrap .oder-item .product-text .img-wrap .img {
+  width: 100%;
+  height: 100%;
+}
+.oder-wrap .oder-item .product-text .money-wrap {
+  white-space: nowrap;
+  text-align: right;
+  margin-left: 30rpx;
+}
+.oder-wrap .oder-item .buy-num {
+  padding: 20rpx 30rpx;
+  text-align: right;
+}
+.oder-wrap .oder-item .money {
+  font-size: 30rpx;
+}
+.oder-wrap .oder-item .text {
+  font-size: 22rpx;
+}
+.oder-wrap .oder-item .button-wrap {
+  padding: 10rpx 30rpx;
+  border-top: 1px solid #f1f1f1;
+  text-align: right;
+}
+.oder-wrap .oder-item .button-wrap .button {
+  border: 1px solid #c1c1c1;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10rpx 20rpx;
+  color: #333;
+  border-radius: 10rpx;
+}

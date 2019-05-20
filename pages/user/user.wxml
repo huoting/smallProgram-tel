@@ -1,0 +1,66 @@
+<!--pages/user.wxml-->
+<view>
+  <!-- 头部开始 -->
+  <view class='user-wrap'>
+    <view class='xx-wrap'>
+      <view class='img-wrap'>
+        <image class='img' src='{{userInfo.avatarUrl}}'></image>
+      </view>
+      <view class='name-wrap'>
+        <view class='name'>{{userInfo.nickName}}</view>
+        <view class='jf'>
+          <text>当前积分</text>
+          <text class='num'>888</text>
+        </view>
+      </view>
+    </view>
+    <view class='qd-button'>签到送好礼</view>
+  </view>
+  <!-- 头部结束 -->
+  <!-- 分类菜单开始 -->
+  <view class='class-nav-list'>
+    <view class='item-wrap'>
+      <view class='text-wrap'>
+        <view class='text' bindtap="operHref" data-name1="{{1}}">我的订单</view>
+      </view>
+      <text class='icon'>></text>
+    </view>
+    <view class='dd-list-wrap'>
+      <view class='item'>
+        <view class='img-wrap'>
+          <image src='../../images/user_img.jpg' class='img'></image>
+        </view>
+        <text class='text'>代收款</text>
+      </view>
+      <view class='item'>
+        <view class='img-wrap'>
+          <image src='../../images/user_img.jpg' class='img'></image>
+        </view>
+        <text class='text'>已付款</text>
+      </view>
+      <view class='item'>
+        <view class='img-wrap'>
+          <image src='../../images/user_img.jpg' class='img'></image>
+        </view>
+        <text class='text'>已消费</text>
+      </view>
+    </view>
+    <view class='item-wrap'>
+      <text class='text-wrap'>
+        <text class='text'>收货地址</text>
+      </text>
+      <text class='icon'>></text>
+    </view>
+    <view class='item-wrap'>
+      <text class='text-wrap'>
+        <text class='text'>客服电话</text>
+        <text class='ts-text'>
+          <text class='tel'>15277133417</text>
+          <text class='span'>(服务时间:8:00-18:00)</text>
+        </text>
+      </text>
+      <text class='icon'>></text>
+    </view>
+  </view>
+  <!-- 分类菜单结束 -->
+</view>

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/productDetails/details",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/oder/oder"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#62cfce",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 15000,
+    "downloadFile": 15000
+  },
+  "tabBar": {
+    "selectedColor": "#62cfce",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/icon1.jpg",
+        "selectedIconPath": "/images/icon1.jpg"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/images/icon1.jpg",
+        "selectedIconPath": "/images/icon1.jpg"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

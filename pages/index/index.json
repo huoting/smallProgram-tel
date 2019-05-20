@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "header-wrap": "../../components/header/header-wrap"
+  }
+}

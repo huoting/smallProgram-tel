@@ -1,0 +1,10 @@
+@import 'styles/reset.wxss';
+@import 'styles/variables.wxss';
+/**app.wxss**/
+.container {
+  height: 100%;
+  box-sizing: border-box;
+}
+image {
+  width: 100%;
+}

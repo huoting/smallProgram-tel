@@ -1,0 +1,88 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" indicator-color="rgba(255, 255, 255, .3)" indicator-active-color="rgba(255, 255, 255, 1)">
+    <swiper-item>
+      <image class='img' src='../../images/banner1.jpg' mode="widthFix"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='img' src='../../images/banner1.jpg' mode="widthFix"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class='img' src='../../images/banner1.jpg' mode="widthFix"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 菜单开始 -->
+  <view class='navigator-wrap'>
+    <navigator url="../../pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image class='img' src='../../images/nav_icon1.jpg'></image>
+      <text>票务</text>
+    </navigator>
+    <navigator url="../../pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image class='img' src='../../images/nav_icon2.jpg'></image>
+      <text>酒店</text>
+    </navigator>
+    <navigator url="../../pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image class='img' src='../../images/nav_icon3.jpg'></image>
+      <text>餐饮</text>
+    </navigator>
+    <navigator url="../../pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image class='img' src='../../images/nav_icon4.jpg'></image>
+      <text>线路</text>
+    </navigator>
+    <navigator url="../../pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image class='img' src='../../images/nav_icon5.jpg'></image>
+      <text>特产</text>
+    </navigator>
+    <navigator url="../../pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image class='img' src='../../images/nav_icon6.jpg'></image>
+      <text>一日游</text>
+    </navigator>
+    <navigator url="../../pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image class='img' src='../../images/nav_icon7.jpg'></image>
+      <text>停车场</text>
+    </navigator>
+    <navigator url="../../pages/logs/logs" open-type="switchTab" hover-class="other-navigator-hover">
+      <image class='img' src='../../images/nav_icon8.jpg'></image>
+      <text>景区周边</text>
+    </navigator>
+  </view>
+  <!-- 菜单结束 -->
+  <!-- 热卖推荐开始 -->
+  <view class='tj-wrap'>
+    <text class='title colorIndex'>热卖推荐</text>
+    <view class='list-wrap'>
+      <view class='item' wx:for="{{listData}}" wx:key="index">
+        <view class='img-wrap' bindtap="openHref" data-name1="{{11}}">
+          <image src='../../images/goods_img1.jpg' class='img'></image>
+        </view>
+        <view class='text-wrap'>
+          <navigator url="../../pages/productDetails/details?id=1" open-type="navigate" class='name'>深圳欢乐谷</navigator>
+          <text class='dec'>市最大的游乐园之一，欢迎您的到来</text>
+          <text class='text'>
+            <text>深圳</text>
+            <text class='colorIndex'>3.8分</text>
+          </text>
+          <text class='text'>7000人点评</text>
+          <view class='money-wrap'>
+            <text class='span'>今日可预订</text>
+            <text class='money'>
+              <text class='money-text'>￥35</text>起
+            </text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 热卖推荐结束 -->
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <header-wrap name="name22"></header-wrap>
+</view>

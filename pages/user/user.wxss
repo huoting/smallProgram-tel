@@ -1,0 +1,105 @@
+/* pages/user.wxss */
+.user-wrap {
+  background-color: #fff;
+  padding: 40rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.user-wrap .xx-wrap {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.user-wrap .img-wrap {
+  min-width: 120rpx;
+  width: 120rpx;
+  height: 120rpx;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.user-wrap .img-wrap .img {
+  width: 100%;
+  height: 100%;
+}
+.user-wrap .name-wrap .name {
+  font-size: 30rpx;
+  color: #000;
+  line-height: 40rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.user-wrap .name-wrap .jf {
+  font-size: 24rpx;
+  color: #999;
+  line-height: 60rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.user-wrap .name-wrap .jf .num {
+  color: #ff6000;
+  padding-left: 10rpx;
+}
+.user-wrap .qd-button {
+  background-color: #62cfce;
+  color: #fff;
+  line-height: 50rpx;
+  border-radius: 50rpx;
+  padding: 0 20rpx;
+}
+/* 分类菜单开始 */
+.class-nav-list {
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.class-nav-list .item-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-top: 1rpx solid #f1f1f1;
+}
+.class-nav-list .item-wrap:first-child {
+  border-top: none;
+}
+.class-nav-list .item-wrap .text {
+  cursor: pointer;
+  font-size: 28rpx;
+  color: #333;
+}
+.class-nav-list .item-wrap .ts-text {
+  font-size: 20rpx;
+  color: #999;
+  padding: 0 0 0 40rpx;
+}
+.class-nav-list .item-wrap .ts-text .tel {
+  color: #62cfce;
+  font-size: 24rpx;
+  padding: 0 5rpx 0 0;
+}
+.class-nav-list .dd-list-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 10rpx 0 30rpx;
+}
+.class-nav-list .dd-list-wrap .img-wrap {
+  min-width: 80rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+}
+.class-nav-list .dd-list-wrap .img-wrap .img {
+  width: 100%;
+  height: 100%;
+}
+.class-nav-list .dd-list-wrap .text {
+  font-size: 24rpx;
+}
+/* 分类菜单j结束 */
